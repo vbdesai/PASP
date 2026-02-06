@@ -27,7 +27,6 @@ def calculator():
             else:
                 print("Invalid operator!")
 
-            # Check if user wants another calculation
             next_calc = input("\nDo another calculation? (y/n): ").lower()
             if next_calc != 'y':
                 break
